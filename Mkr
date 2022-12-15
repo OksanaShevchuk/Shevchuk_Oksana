@@ -1,0 +1,17 @@
+for (double x1 = -1; x1 <= 1; x1 = x1 + 0.1)
+            {
+                for (double x2 = -2; x2 <= 2; x2 = x2 + 0.1)
+                {
+                    f12 = 8 * Math.Pow(x1, 2) + 16 * x1 + 6 * Math.Pow(x2, 2) - 12 * x2 + 50;
+                    f122 = f12 - maxmin;
+                    if (f122 > 0)
+                    {
+                        array[b, 0] = x1;
+                        array[b, 1] = x2;
+                        array[b, 2] = f122;
+
+                        
+                        b++;
+                    }
+                }
+            }
